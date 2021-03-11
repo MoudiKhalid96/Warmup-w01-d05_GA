@@ -1,0 +1,117 @@
+/* Settin the style */
+* {
+    margin: 5px;
+    background-color: rgb(245, 244, 244);
+}
+
+/* Give a different font-family than the default one only for these elements */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+footer {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* The container that contains all the tags */
+.container {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/* To give the brand sapce letter in `index.html` */
+.brand {
+    letter-spacing: 0.2rem;
+}
+
+
+/* Container that contains both the `.brand` and `.para` */
+.about {
+    width: 50%;
+    height: 40%;
+    display: inline-block;
+}
+
+/* This is the about text of paragraph */
+.para {
+    font-size: 1.2rem;
+    margin-top: 10%;
+}
+
+/* This is the container of the protfolio picture in `index.html` */
+.portfolio-image {
+    float: right;
+}
+
+/* clear after floating to avoid any problems */
+.portfolio-image::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+/* This style is for the protfolio picture in `index.html` */
+#portfolio-image {
+    width: 20vw;
+    height: 30vh;
+    border: 1px solid black;
+    padding: 3px;
+}
+
+/* This is to design the first and last hr in the page */
+.hr-weight {
+    height: 3px;
+    background-color: #000;
+}
+
+
+/* Each element that users this class will be in center of page horizontally */
+.center-text {
+    text-align: center;
+}
+
+/* style the a tag */
+a {
+    color: #000;
+    font-weight: 800;
+}
+
+/* style of navigation will changes when moving from one page to another */
+#not-in-page {
+    text-decoration: none;
+    font-style: italic;
+}
+
+/* style the experiance part in `protfolio.html` */
+.experience-para {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* to give some space in portfolio division */
+.portfolio {
+    margin-top: 50px;
+}
+
+/* This is the images in portfolio part in `protfolio.html` */
+.work-images {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 50vw;
+    height: 70vh;
+    border: 1px solid black;
+}
+
+/* to give some space in education division */
+.education {
+    margin-top: 5px
+}
+
+/* to give space at the end of the page */
+footer {
+    margin-top: 30px;
+}

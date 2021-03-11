@@ -1,4 +1,5 @@
 # Build a Website using HTML/CSS Lab
+<small style="color: gray">This was warmup work from <span title="General Assembly">GA</span></small>
 
 ## Introduction
 
