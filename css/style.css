@@ -89,17 +89,16 @@ a {
 /* style the experiance part in `protfolio.html` */
 .experience-para {
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 50px;
 }
 
 /* to give some space in portfolio division */
 .portfolio {
-    margin-top: 50px;
+    padding: 10px;
 }
 
 /* This is the images in portfolio part in `protfolio.html` */
 .work-images {
-    margin-top: 50px;
     margin-bottom: 50px;
     width: 50vw;
     height: 70vh;
