@@ -52,6 +52,7 @@ footer {
     clear: both;
     content: "";
     display: block;
+    margin-bottom: 10px;
 }
 
 /* This style is for the protfolio picture in `index.html` */
@@ -59,7 +60,6 @@ footer {
     width: 20vw;
     height: 30vh;
     border: 1px solid black;
-    padding: 3px;
 }
 
 /* This is to design the first and last hr in the page */
@@ -112,5 +112,5 @@ a {
 
 /* to give space at the end of the page */
 footer {
-    margin-top: 30px;
+    margin-top: 50px;
 }
